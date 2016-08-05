@@ -16,7 +16,7 @@ object BasicServer extends App {
     }
   }
 
-  val server = Http.server.serve(":8080", service)
+  val server = Http.server.serve(":7777", service)
   Await.ready(server)
 
 }
