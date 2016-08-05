@@ -1,4 +1,4 @@
-package com.jensraaby.finagle
+package com.coole.finagle
 
 import com.twitter.finagle.{Http, Service, http}
 import com.twitter.util.{Await, Future}
